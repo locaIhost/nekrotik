@@ -27,3 +27,8 @@ cd src/ && chmod +x nekrotik.py
 # For bruteforce use wordlist
 ./nekrotik.py --ip 172.17.0.2 --username admin --dict /tmp/password --output brute.log
 ```
+
+## Note
+```sh
+Testing was performed only on RouterOS 7.16.2!
+```
